@@ -266,7 +266,6 @@ header.scrolled {
     position: absolute;
     border-radius: 50%;
     mix-blend-mode: screen;
-    animation: float 16s ease-in-out infinite;
 }
 
 .aurora span:nth-child(1) {
@@ -275,7 +274,6 @@ header.scrolled {
     background: var(--teal);
     top: -160px;
     left: -80px;
-    animation-duration: 18s
 }
 
 .aurora span:nth-child(2) {
@@ -284,8 +282,6 @@ header.scrolled {
     background: var(--purple);
     top: -100px;
     right: -120px;
-    animation-duration: 22s;
-    animation-delay: -4s
 }
 
 .aurora span:nth-child(3) {
@@ -294,8 +290,6 @@ header.scrolled {
     background: var(--green);
     bottom: -180px;
     left: 30%;
-    animation-duration: 20s;
-    animation-delay: -9s
 }
 
 @keyframes float {
